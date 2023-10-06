@@ -1,5 +1,5 @@
 title: Fantasy Football
-description: Using ML to Predict Fantasy Football points for the end of the 2023 season.
-show_downloads: true
+description: Using ML to Predict Fantasy Football points for the end of the 2023 season using past datasets that include each player's stats and their corresponding year's fantasy points
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
