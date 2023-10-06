@@ -17,13 +17,14 @@ We aim to predict the rankings for how players will perform during the football 
 ## Methods
 
 1. Data collection and processing
-  - 1a) Handle missing values
-  - 1b) Possible label-encoding
-3. Split data set into training and testing data (70/30 split)
-4. Build ML models
-5. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
-6. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
-7. Use model to predict player’s fantasy rating for 2023
+  > 1a) Handle missing values
+>
+  > 1b) Possible label-encoding
+2. Split data set into training and testing data (70/30 split)
+3. Build ML models
+4. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
+5. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
+6. Use model to predict player’s fantasy rating for 2023
 
 Our machine learning libraries of interest are pandas (for manipulating datasets), numpy (for mathematical operations), and scikit-learn (for scaling, creating regression models, and performance evaluation). 
 
