@@ -56,7 +56,7 @@ Below are the contributions of each of our members.
 
 | Name                 | Contribution                                                                                      |
 |:---------------------|:--------------------------------------------------------------------------------------------------|
-| Emmanuel Ebhohimen   | Created GitHub Page, Contribution Table, Project Checkpoint, Project Timeline                     |
+| Emmanuel Ebhohimen   | Created GitHub Page, Contribution Table, Project Timeline                                         |
 | Justin Huang         | Methods, Algorithms, and Libraries, Peer Reviewed References, Dataset, Project Checkpoint         |
 | Gregory Elias        | Setup GitHub Repository and GitHub Pages, Video Presentation                                      |
 | Joshua Abantao       | Intro / Background and Problem / Definition                                                       |
