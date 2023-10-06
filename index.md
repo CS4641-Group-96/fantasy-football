@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Our project about fantasy football.
+
 # Intro / Background
 
 # Problem / Definition
@@ -32,6 +34,8 @@ One tree might be an expert on quarterbacks using data from 2005-2015, while ano
 
 # Project Timeline
 
+Here is a link to our [Project Timeline](https://docs.google.com/spreadsheets/d/1PfeLZonz-8v8Uf2v6IxM1N3aaypRdWp5/edit?usp=sharing&ouid=115243335959569312831&rtpof=true&sd=true).
+
 # Contribution Table
 
 Below are the contributions of each of our members.
@@ -45,11 +49,3 @@ Below are the contributions of each of our members.
 | Andrew Titus         | Results, Quantitative Metrics, and Discussion                                 |
 
 # Project Checkpoint
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
