@@ -2,13 +2,25 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Methods Algorithms and Libraries
 
-[Link to another page](./another-page.html).
+## Methods
 
-There should be whitespace between paragraphs.
+1. Data collection and processing
+  * Deal with missing values
+  * Possible label-encoding
+1. Split data set into training and testing data (70/30 split)
+1. Build ML models
+1. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
+1. Use model to predict player’s fantasy rating for 2023
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+The machine learning libraries that we plan to use are pandas, numpy, scikit-learn. Pandas is excellent for manipulating datasets. Numpy is excellent for mathematical operations, and Scikit-learn is excellent at scaling, creating regression models, and performance evaluation.
+
+There are several types of regression models that we can use. We could implement a linear regression model to predict a player's fantasy point scores using his past fantasy point scores. We could also implement the SVR model by showing past player statistics and the fantasy points they scored for the model to learn the relationship between a player's performance and the points they score. (Once it has learned from the past, you can show it new data and ask the model to predict the fantasy points a player will score in 2023). Furthermore, we could implement a random forest model. The algorithm focuses on a random subset of players and a random subset of statistics. 
+
+One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. We won't be using logistic regression because classification algorithms do not provide exact point projections.
+
+[Our Dataset](./another-page.html).
 
 # Contribution Table
 
@@ -21,53 +33,6 @@ Below are the contributions of each of our members.
 | Gregory Elias        | Setup GitHub Repository and GitHub Pages, Video Presentation                  |
 | Joshua Abantao       | Intro / Background and Problem / Definition                                   |
 | Andrew Titus         | Results, Quantitative Metrics, and Discussion                                 |
-
-# Methods Algorithms and Libraries
-
-## Methods
-
-1. Data collection and processing
-  1. Deal with missing values
-  1. Possible label-encoding
-1. Split data set into training and testing data (70/30 split)
-1. Build ML models
-1. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
-1. Use model to predict player’s fantasy rating for 2023
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
 
 ###### Header 6
 
@@ -82,36 +47,6 @@ end
 
 * * *
 
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
 ### Small image
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
@@ -119,25 +54,3 @@ end
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
