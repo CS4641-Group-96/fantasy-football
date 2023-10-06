@@ -2,6 +2,10 @@
 layout: default
 ---
 
+# Intro / Background
+
+# Problem / Definition
+
 # Methods Algorithms and Libraries
 
 ## Methods
@@ -20,7 +24,13 @@ There are several types of regression models that we can use. We could implement
 
 One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. We won't be using logistic regression because classification algorithms do not provide exact point projections.
 
-[Our Dataset](./another-page.html).
+[Our Project's Dataset](https://fantasydata.com/nfl/fantasy-football-leaders?season=2022&seasontype=3&scope=1&subscope=1&startweek=1&endweek=1&aggregatescope=1&range=1).
+
+# Results, Quantitative Metrics, and Discussion
+
+# Peer-Reviewed References
+
+# Project Timeline
 
 # Contribution Table
 
@@ -34,18 +44,7 @@ Below are the contributions of each of our members.
 | Joshua Abantao       | Intro / Background and Problem / Definition                                   |
 | Andrew Titus         | Results, Quantitative Metrics, and Discussion                                 |
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
+# Project Checkpoint
 
 ### Small image
 
