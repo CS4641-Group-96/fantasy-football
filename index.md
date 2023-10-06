@@ -10,9 +10,29 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Contribution Table
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Below are the contributions of each of our members.
+
+| Name                 | Contribution                                                                  |
+|:---------------------|:------------------------------------------------------------------------------|
+| Emmanuel Ebhohimen   | Created GitHub Page, Contribution Table, Project Checkpoint, Project Timeline |
+| Justin Huang         | Methods, Algorithms, and Libraries, Peer Reviewed References, Dataset         |
+| Gregory Elias        | Setup GitHub Repository and GitHub Pages, Video Presentation                  |
+| Joshua Abantao       | Intro / Background and Problem / Definition                                   |
+| Andrew Titus         | Results, Quantitative Metrics, and Discussion                                 |
+
+# Methods Algorithms and Libraries
+
+## Methods
+
+1. Data collection and processing
+  1. Deal with missing values
+  1. Possible label-encoding
+1. Split data set into training and testing data (70/30 split)
+1. Build ML models
+1. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
+1. Use model to predict player’s fantasy rating for 2023
 
 ## Header 2
 
