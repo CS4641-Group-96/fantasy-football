@@ -17,8 +17,8 @@ We aim to predict the rankings for how players will perform during the football 
 ## Methods
 
 1. Data collection and processing
-  a) Handle missing values
-  b) Possible label-encoding
+  * Handle missing values
+  * Possible label-encoding
 2. Split data set into training and testing data (70/30 split)
 3. Build ML models
 4. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
