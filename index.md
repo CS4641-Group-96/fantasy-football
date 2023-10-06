@@ -17,18 +17,17 @@ We aim to predict the rankings for how players will perform during the football 
 ## Methods
 
 1. Data collection and processing
-  * Handle missing values
-  * Possible label-encoding
-1. Split data set into training and testing data (70/30 split)
-1. Build ML models
-1. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
-1. Use model to predict player’s fantasy rating for 2023
+  a) Handle missing values
+  b) Possible label-encoding
+2. Split data set into training and testing data (70/30 split)
+3. Build ML models
+4. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
+5. Use model to predict player’s fantasy rating for 2023
 
-The machine learning libraries that we plan to use are pandas (for manipulating datasets), numpy (for mathematical operations), and scikit-learn (for scaling, creating regression models, and performance evaluation).
+Our machine learning libraries of interest are pandas (for manipulating datasets), numpy (for mathematical operations), and scikit-learn (for scaling, creating regression models, and performance evaluation). 
 
-There are several types of regression models that we can use. We could implement a linear regression model to predict a player's fantasy point scores using past fantasy scores. We could also implement the SVR model by showing past player statistics and the fantasy points they scored for the model to learn the relationship between a player's performance and the points they score. (Once it has learned from the past, you can show it new data and ask the model to predict the fantasy points a player will score in 2023). Furthermore, we could implement a random forest model. The algorithm focuses on a random subset of players and a random subset of statistics. 
-
-One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. 
+There are several types of regression models that we can use. We could implement a linear regression model to predict a player's fantasy point scores using past fantasy scores. We could also implement the SVR model to learn the relationship between a player's performance and the points they score using past player statistics and fantasy points. (Once it has learned from the past, it can predict a player’s 2023 fantasy points with new data). Furthermore, we could implement a random forest model. The algorithm focuses on a random subset of players and a random subset of statistics. One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. 
+ 
 
 [Our Project's Dataset](https://fantasydata.com/nfl/fantasy-football-leaders?season=2022&seasontype=3&scope=1&subscope=1&startweek=1&endweek=1&aggregatescope=1&range=1).
 
@@ -36,7 +35,7 @@ One tree might be an expert on quarterbacks using data from 2005-2015, while ano
 
 Our project's goal is to compare our model with the actual scoring output of the 2023 season. By the end of our timeline, 11-12 weeks of the 17-18 week fantasy football season will be complete. We can adjust the actual scoring output from the first 11-12 weeks of the season to provide an estimated output after 18 weeks to compare with our model. We will use MAE or RMSE to compare the results of the model with the actual results of players this season.
 
-Additionally, we can create a tiered ranking for each position and compare this with both the actual rankings of 2023 and the preseason rankings by experts (e.g. ESPN). If our model shows better results than preseason draft rankings, our model could help users determine players who may not be valued by traditional experts.
+Additionally, we can create a tiered ranking for each position and compare this with both the actual rankings of 2023 and the preseason rankings by experts  (e.g. [PFF](https://www.pff.com/news/fantasy-football-rankings-2023-top-250)). If our model shows better results than preseason draft rankings, our model could help users determine players who may not be valued by traditional experts.
 
 # Peer-Reviewed References
 
