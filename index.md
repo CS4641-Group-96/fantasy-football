@@ -120,7 +120,3 @@ Below are the contributions of each of our members.
 | Gregory Elias        | Model Coding                                               |
 | Joshua Abantao       | Data Pre-processing                                        |
 | Andrew Titus         | Results / Evaluation and Analysis                          |
-
-# Project Checkpoint
-
-We plan to fully utilize the concepts we learned in class to this semester long project. From the class schedule, linear regression, logistic regression, and SVM will be covered in the future, so it excites us that we will be putting these machine learning models in practice. Random forest is another common machine learning algorithm/model that we plan to incorporate in our project because we believe that such an enhanced decision tree model is integral to formulating an accurate prediction model. After our proposal, we plan to start curating and manipulating our data site to fit our model. By the midterm report, we plan to already have a working data pipeline that filters data that fits our models, and would like to have already come up with the linear regression/logistic regression prediction model. After the mid term report, we plan to finalize on our random forest and our SVM model, and before the final report, complete the overall evaluation of our model, and successfully predict the fantasy scores for the NFL players next season.
