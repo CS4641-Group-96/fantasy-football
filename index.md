@@ -29,7 +29,7 @@ Here is a snippet of the semi-processed data and its column names:
 
 Then, we transformed categorical features using OneHotEncoder, converting categorical variables into a more efficient format that could be provided to ML algorithms to do a better job in prediction. We also used ColumnTransformation to preprocess different subsets of features, and that left numeric features "untransformed" and ensured only the relevent features are included in the model training process. In addition, we used scaling and normalization for our SVR algorithm to improve SVR performance:
 
- 
+ ![Some Picture]({{ site.url }}{{ site.baseurl }}./4.png)
 
 3. Split data set into training and testing data (80/20 split)
 
