@@ -6,13 +6,15 @@ layout: default
 
 # Intro / Background
 
-Fantasy football allows fans to manage their own team of players. To compete, fantasy teams earn points based on the performances of their players during real NFL games. However, it is common for players to exceed or underperform compared to expectations. With a multitude of factors such as injuries, matchup grades, and team strategies, how can one accurately predict player performances? This project aims to address that using the default PPR scoring system. A large dataset featuring football player data from 2019 - 2022 will be used to create the model and player data from 2023 (also included in the dataset) will be used to test the model's accuracy. This dataset is especially valuable as it contains features such as players' snaps per game, their expected fantasy points for the season, and red zone snaps per game, which will allow for more accurate modelling. A notable project that has been done in fantasy football is to an artificial intelligence that gives real-time recommendations on players in fantasy teams. With this project, we hope to do the same, except instead of real-time updates, we predict the fantasy points for all NFL quarterbacks for the upcoming season (before it has even started!).
+Fantasy football allows fans to manage their own team of players. To compete, fantasy teams earn points based on the performances of their players during real NFL games. However, it is common for players to exceed or underperform compared to expectations. With a multitude of factors such as injuries, matchup grades, and team strategies, how can one accurately predict player performances? This project aims to address that using the default PPR scoring system. A large dataset featuring football player data from 2019 - 2022 will be used to create the model and player data from 2023 (also included in the dataset) will be used to test the model's accuracy. This dataset is especially valuable as it contains features such as players' snaps per game, their expected fantasy points for the season, and red zone snaps per game, which will allow for more accurate modelling. A notable project that has been done in fantasy football is an artificial intelligence that gives real-time recommendations on players in fantasy teams. With this project, we hope to do the same, except instead of real-time updates, we predict the fantasy points for all NFL quarterbacks for the upcoming season (before it has even started!) so fantasy teams can choose the best players and win their league.
 
 [Our Project's Dataset](https://www.4for4.com/nfl-player-stat-explorer).
 
 
 # Peer-Reviewed References
 
+* R, P. (n.d.). Ai-powered fantasy sports for accurate data analytics. AI-powered Fantasy Sports for Accurate Data Analytics. https://www.intuz.com/blog/ai-powered-fantasy-sports
+  
 * Beal, Ryan & Norman, Timothy & Ramchurn, Sarvapali. (2020). A Critical Comparison of Machine Learning Classifiers to Predict Match Outcomes in the NFL. International Journal of Computer Science in Sport. 19. 10.2478/ijcss-2020-0009. 
 
 * J. R. Landers and B. Duperrouzel, "Machine Learning Approaches to Competing in Fantasy Leagues for the NFL," in IEEE Transactions on Games, vol. 11, no. 2, pp. 159-172, June 2019, doi: 10.1109/TG.2018.2841057.
