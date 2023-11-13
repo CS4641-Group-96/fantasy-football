@@ -10,28 +10,36 @@ Fantasy football allows fans to manage their own team of players. To compete, fa
 
 # Problem / Definition
 
-We aim to predict the rankings for how players will perform during the football season using machine learning.
+We aim to predict the rankings/fantasy points for all NFL quarterbacks using machine learning for the upcoming seasion
 
 # Methods Algorithms and Libraries
 
 ## Methods
 
 1. Data collection and processing
-  > 1a) Handle missing values
->
-  > 1b) Possible label-encoding
-2. Split data set into training and testing data (70/30 split)
-3. Build ML models
-4. Use metrics like Mean Absolute Error (MAE), Root Mean Squared Error to evaluate
-5. Use metrics: Mean Absolute Error (MAE), Root Mean Squared Error (RMSE) to evaluate
-6. Use model to predict player’s fantasy rating for 2023
 
-Our machine learning libraries of interest are pandas (for manipulating datasets), numpy (for mathematical operations), and scikit-learn (for scaling, creating regression models, and performance evaluation). 
+We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2022 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Each csv file looks like the following:
+
+After downloading the data in the form of multiple csv files, we loaded the data into our machine learning environment and into separate Pandas dataframes. These 5 separate data frames are then concatenated into a single data frame for processing:
+
+Then, we transformed categorical features using OneHotEncoder, converting categorical variables into a more efficient format that could be provided to ML algorithms to do a better job in prediction. We also used ColumnTransformation to preprocess different subsets of features, and that left numeric features "untransformed" and ensured only the relevent features are included in the model training process. In addition, we used scaling and normalization for our SVR algorithm to improve SVR performance:
+
+
+3. Split data set into training and testing data (80/20 split)
+
+We have the dataset for 2019, 2020, 2021, 2022, and 2023, so we decided th use 2019, 2020, 2021, 2022 as training data, and use 2023 as our testing data, hence a 80/20 split. The intention is to use data from previous years to train the model and test it on the most recent year's data
+
+5. Build ML models
+
+We initialized and trained various regression models on the training set. The machine learning models used in this porject include linear regression, ridge regression, lasso regression, random forest, gradient boosting, and SVR:  
+
+Results and Discussion
+
 
 There are several types of regression models that we can use. We could implement a linear regression model to predict a player's fantasy point scores using past fantasy scores. We could also implement the SVR model to learn the relationship between a player's performance and the points they score using past player statistics and fantasy points. (Once it has learned from the past, it can predict a player’s 2023 fantasy points with new data). Furthermore, we could implement a random forest model. The algorithm focuses on a random subset of players and a random subset of statistics. One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. 
  
 
-[Our Project's Dataset](https://fantasydata.com/nfl/fantasy-football-leaders?season=2022&seasontype=3&scope=1&subscope=1&startweek=1&endweek=1&aggregatescope=1&range=1).
+[Our Project's Dataset](https://www.4for4.com/nfl-player-stat-explorer).
 
 # Results, Quantitative Metrics, and Discussion
 
