@@ -18,12 +18,16 @@ We aim to predict the rankings/fantasy points for all NFL quarterbacks using mac
 
 1. Data collection and processing
 
-We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2022 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Each csv file looks like the following:
+We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2022 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Here is a snippet of the format and data of each csv file:
 
 After downloading the data in the form of multiple csv files, we loaded the data into our machine learning environment and into separate Pandas dataframes. These 5 separate data frames are then concatenated into a single data frame for processing:
 
+
+Here is a snippet of the semi-processed data and its column names:
+
 Then, we transformed categorical features using OneHotEncoder, converting categorical variables into a more efficient format that could be provided to ML algorithms to do a better job in prediction. We also used ColumnTransformation to preprocess different subsets of features, and that left numeric features "untransformed" and ensured only the relevent features are included in the model training process. In addition, we used scaling and normalization for our SVR algorithm to improve SVR performance:
 
+ 
 
 3. Split data set into training and testing data (80/20 split)
 
@@ -35,7 +39,7 @@ We initialized and trained various regression models on the training set. The ma
 
 Results
 
-As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data.
+As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data. 
 
 
 Analysis and Discussion
