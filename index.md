@@ -24,7 +24,7 @@ Fantasy football allows fans to manage their own team of players. To compete, fa
 
 # Problem / Definition
 
-We aim to predict the rankings/fantasy points for all NFL quarterbacks using machine learning for the upcoming seasion so that fantasy teams can pick the best players and win their league.
+We aim to predict the rankings/fantasy points for all NFL quarterbacks using machine learning for the upcoming season so that fantasy teams can pick the best players and win their league.
 
 # Methods Algorithms and Libraries
 
