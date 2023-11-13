@@ -32,7 +32,7 @@ To help fans get the best chance at having a high-powered team, it's crucial to 
 
 1. Data collection and processing
 
-We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2022 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Here is a snippet of the format and data of each csv file:
+We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2023 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Here is a snippet of the format and data of each csv file:
 
 ![csv ss](/fantasy-football/assets/css/1.png)
 
@@ -69,7 +69,7 @@ We initialized and trained various regression models on the training set. The ma
 ![csv ss](/fantasy-football/assets/css/6.png)
 
 
-Results
+# Results
 
 As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data. 
 
@@ -86,7 +86,7 @@ As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine lea
 ![csv ss](/fantasy-football/assets/css/7.22.png)
 
 
-Analysis and Discussion
+# Analysis and Discussion
 
 Here are the graphs that show the relationship between predicted data and actual data using Matplotlib:
 
