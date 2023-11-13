@@ -24,36 +24,55 @@ We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 20
 
 After downloading the data in the form of multiple csv files, we loaded the data into our machine learning environment and into separate Pandas dataframes. These 5 separate data frames are then concatenated into a single data frame for processing:
 
+![csv ss](/fantasy-football/assets/css/2.png)
 
 Here is a snippet of the semi-processed data and its column names:
+![csv ss](/fantasy-football/assets/css/3.png)
+![csv ss](/fantasy-football/assets/css/3.5.png)
 
 Then, we transformed categorical features using OneHotEncoder, converting categorical variables into a more efficient format that could be provided to ML algorithms to do a better job in prediction. We also used ColumnTransformation to preprocess different subsets of features, and that left numeric features "untransformed" and ensured only the relevent features are included in the model training process. In addition, we used scaling and normalization for our SVR algorithm to improve SVR performance:
 
- ![Some Picture]({{ site.url }}{{ site.baseurl }}./4.png)
+![csv ss](/fantasy-football/assets/css/4.png)
+![csv ss](/fantasy-football/assets/css/4.5.png)
 
 3. Split data set into training and testing data (80/20 split)
 
 We have the dataset for 2019, 2020, 2021, 2022, and 2023, so we decided th use 2019, 2020, 2021, 2022 as training data, and use 2023 as our testing data, hence a 80/20 split. The intention is to use data from previous years to train the model and test it on the most recent year's data
 
+![csv ss](/fantasy-football/assets/css/5.png)
+
 5. Build ML models
 
-We initialized and trained various regression models on the training set. The machine learning models used in this porject include linear regression, ridge regression, lasso regression, random forest, gradient boosting, and SVR:  
+We initialized and trained various regression models on the training set. The machine learning models used in this porject include linear regression, ridge regression, lasso regression, random forest, gradient boosting, and SVR: 
+
+![csv ss](/fantasy-football/assets/css/6.png)
 
 Results
 
 As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data. 
+
+![csv ss](/fantasy-football/assets/css/7.png)
+![csv ss](/fantasy-football/assets/css/7.5.png)
+![csv ss](/fantasy-football/assets/css/7.8.png)
+![csv ss](/fantasy-football/assets/css/7.9.png)
+![csv ss](/fantasy-football/assets/css/7.66.png)
+![csv ss](/fantasy-football/assets/css/7.22.png)
 
 
 Analysis and Discussion
 
 Here are the graphs that show the relationship between predicted data and actual data using Matplotlib:
 
-
+![csv ss](/fantasy-football/assets/css/8.png)
 
 As shown, the model relatively accurately predicted the fantasy points for 2023. To further show the relationship between predicted and actual data, we calculated the mean squared error (MSE) for each model:
 
+![csv ss](/fantasy-football/assets/css/9.png)
+
 
 Which model performs the best? Here is a chart that visualizes the MSE for each model:
+
+![csv ss](/fantasy-football/assets/css/10.png)
 
 
 As shown, linear regression has the best performance, followed by ridge regression and gradient boosting.
