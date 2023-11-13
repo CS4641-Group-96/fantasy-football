@@ -113,13 +113,13 @@ Here is a link to our [Project Timeline](https://docs.google.com/spreadsheets/d/
 
 Below are the contributions of each of our members.
 
-| Name                 | Contribution                                                                                      |
-|:---------------------|:--------------------------------------------------------------------------------------------------|
-| Emmanuel Ebhohimen   | Created GitHub Page, Contribution Table, Project Timeline                                         |
-| Justin Huang         | Methods, Algorithms, and Libraries, Peer Reviewed References, Dataset, Project Checkpoint         |
-| Gregory Elias        | Setup GitHub Repository and GitHub Pages, Video Presentation                                      |
-| Joshua Abantao       | Intro / Background and Problem / Definition                                                       |
-| Andrew Titus         | Results, Quantitative Metrics, and Discussion                                                     |
+| Name                 | Contribution                                               |
+|:---------------------|:-----------------------------------------------------------|
+| Emmanuel Ebhohimen   | Model Selection, Model Coding                              |
+| Justin Huang         | Data Sourcing and Cleaning, Model Coding                   |
+| Gregory Elias        | Model Coding                                               |
+| Joshua Abantao       | Data Pre-processing                                        |
+| Andrew Titus         | Results / Evaluation and Analysis                          |
 
 # Project Checkpoint
 
