@@ -20,7 +20,7 @@ We aim to predict the rankings/fantasy points for all NFL quarterbacks using mac
 
 We downloaded quarterback fantasy statistics from 2019, 2020, 2021, 2022, and 2022 in the form of csv from "https://www.4for4.com/nfl-player-stat-explorer". Here is a snippet of the format and data of each csv file:
 
-![Book logo](/fantasy-football/1.png)
+![csv ss](/fantasy-football/assets/1.png)
 
 After downloading the data in the form of multiple csv files, we loaded the data into our machine learning environment and into separate Pandas dataframes. These 5 separate data frames are then concatenated into a single data frame for processing:
 
