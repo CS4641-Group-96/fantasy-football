@@ -24,7 +24,7 @@ Fantasy football allows fans to manage their own team of players. To compete, fa
 
 # Problem / Definition
 
-To help fans get the best chance at having a high-powered team, we aim to help them identify the best players. More specifically, what better way to do such than to predict the highest-scoring fantasy position, the quarterback? We aim to predict the rankings/fantasy points for all NFL quarterbacks using machine learning for the upcoming season so that fantasy teams can pick the best players and win their league.
+To help fans get the best chance at having a high-powered team, it's crucial identify the best players. More specifically, what better way to do such than to predict the highest-scoring fantasy position, the quarterback? We aim to predict the rankings/fantasy points for all NFL quarterbacks using machine learning for the upcoming season so that fantasy teams can pick the best players and win their league.
 
 # Methods Algorithms and Libraries
 
