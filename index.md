@@ -33,19 +33,30 @@ We have the dataset for 2019, 2020, 2021, 2022, and 2023, so we decided th use 2
 
 We initialized and trained various regression models on the training set. The machine learning models used in this porject include linear regression, ridge regression, lasso regression, random forest, gradient boosting, and SVR:  
 
-Results and Discussion
+Results
+
+As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data.
 
 
-There are several types of regression models that we can use. We could implement a linear regression model to predict a player's fantasy point scores using past fantasy scores. We could also implement the SVR model to learn the relationship between a player's performance and the points they score using past player statistics and fantasy points. (Once it has learned from the past, it can predict a player’s 2023 fantasy points with new data). Furthermore, we could implement a random forest model. The algorithm focuses on a random subset of players and a random subset of statistics. One tree might be an expert on quarterbacks using data from 2005-2015, while another might know about wide receivers from 2010-2022. Each tree looks at its subset of data and learns how player statistics relate to fantasy points. The model takes a majority vote to decide on the final prediction for testing data. Lastly, we could also use the KNN model to predict the value of a player's fantasy points based on the 'k' players with the most similar historical performance. 
+Analysis and Discussion
+
+Here are the graphs that show the relationship between predicted data and actual data using Matplotlib:
+
+
+
+As shown, the model relatively accurately predicted the fantasy points for 2023. To further show the relationship between predicted and actual data, we calculated the mean squared error (MSE) for each model:
+
+
+Which model performs the best? Here is a chart that visualizes the MSE for each model:
+
+
+As shown, linear regression has the best performance, followed by ridge regression and gradient boosting.
+
+
  
 
 [Our Project's Dataset](https://www.4for4.com/nfl-player-stat-explorer).
 
-# Results, Quantitative Metrics, and Discussion
-
-Our project's goal is to compare our model with the actual scoring output of the 2023 season. By the end of our timeline, 11-12 weeks of the 17-18 week fantasy football season will be complete. We can adjust the actual scoring output from the first 11-12 weeks of the season to provide an estimated output after 18 weeks to compare with our model. We will use MAE or RMSE to compare the results of the model with the actual results of players this season.
-
-Additionally, we can create a tiered ranking for each position and compare this with both the actual rankings of 2023 and the preseason rankings by experts  (e.g. [PFF](https://www.pff.com/news/fantasy-football-rankings-2023-top-250)). If our model shows better results than preseason draft rankings, our model could help users determine players who may not be valued by traditional experts.
 
 # Peer-Reviewed References
 
