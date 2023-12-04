@@ -96,17 +96,17 @@ As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine lea
 
 Here are the graphs that show the relationship between predicted data and actual data using Matplotlib:
 
-![csv ss](/fantasy-football/assets/css/8.png)
+![csv ss](/fantasy-football/assets/css/ninebox.png)
 
 
 As shown, the model relatively accurately predicted the fantasy points for 2023. To further show the relationship between predicted and actual data, we calculated the mean squared error (MSE) for each model:
 
-![csv ss](/fantasy-football/assets/css/9.png)
+![csv ss](/fantasy-football/assets/css/mse.png)
 
 
 Which model performs the best? Here is a chart that visualizes the MSE for each model:
 
-![csv ss](/fantasy-football/assets/css/10.png)
+![csv ss](/fantasy-football/assets/css/barchart.png)
 
 
 As shown, linear regression has the best performance, followed by ridge regression and gradient boosting. 
