@@ -126,7 +126,7 @@ In this project of predicting fantasy football points for the 2023 season, a var
 
 The MSE serves as a straightforward metric for evaluating model performance as it calculates the average squared difference between predicted and actual fantasy points. The lower the MSE, the more accurate the model is on average. The residual plots provide a visual representation of the errors (residuals) between predicted and actual points. In an ideal situation, we want the residuals to be normally distributed, forming a bell-shaped curve, as it indicates that the model's predictions are unbiased, and the errors are just due to random fluctuations.
 
-For our prediction model, the Linear Regression model yields an MSE effectively at zero, indicating an almost perfect prediction. The residual plots for Linear Regression From the residue plot, there is a slight skewness to the right, suggesting that the linear regression model underestimates the actual values. This could be a few outliers.
+For our prediction model, the Linear Regression model yields an MSE effectively at zero, indicating an almost perfect prediction. From the residue plot, there is a slight skewness to the right, suggesting that the linear regression model underestimates the actual values. This could be due to a few outliers.
 
 The Ridge Regression and Lasso Regression models have marginally higher MSEs, yet still low, suggesting they also fit the data well, with Ridge Regression having a slight edge. The residual plot analysis is slightly different. For the Ridge Regression model, the residuals seem to be distributed around zero, and the shape is close to a bell curve. This suggests that the Ridge Regression model is performing well and the errors are distributed normally, indicating that there is no obvious bias in the predictions, and the errors seem to be due to random variation rather than systematic error. On the other hand, for the Lasso Regression model's residue plot, there is a noticeable skew to the right, indicating that the Lasso Regression model might be underestimating the true values to some extent.
 
@@ -151,10 +151,10 @@ Here is a link to our [Project Timeline](https://docs.google.com/spreadsheets/d/
 
 Below are the contributions of each of our members.
 
-| Name                 | Contribution                                               |
-|:---------------------|:-----------------------------------------------------------|
-| Emmanuel Ebhohimen   | Model Selection, Model Coding                              |
-| Justin Huang         | Data Sourcing and Cleaning, Model Coding                   |
-| Gregory Elias        | Model Coding                                               |
-| Joshua Abantao       | Data Pre-processing                                        |
-| Andrew Titus         | Results / Evaluation and Analysis                          |
+| Name                 | Contribution                 |
+|:---------------------|:-----------------------------|
+| Emmanuel Ebhohimen   | Final Report                 |
+| Justin Huang         | Model Comparison             |
+| Gregory Elias        | Model Comparison             |
+| Joshua Abantao       | Presentation                 |
+| Andrew Titus         | Recording                    |
