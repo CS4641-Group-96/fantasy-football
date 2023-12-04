@@ -92,7 +92,7 @@ As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine lea
 ![csv ss](/fantasy-football/assets/css/elastic_net.png)
 
 
-# Analysis and Discussion
+# Analysis and Visualization
 
 Here are the graphs that show the relationship between predicted data and actual data using Matplotlib:
 
@@ -120,7 +120,7 @@ Here are the visualizations using residue distribution analysis:
 ![csv ss](/fantasy-football/assets/css/lightgbm_res.png)
 ![csv ss](/fantasy-football/assets/css/elasticnet_res.png)
 
-Conclusion: 
+# Conclusion and Discussion
 
 In this project of predicting fantasy football points for the 2023 season, a variety of machine learning models were employed, including Linear Regression, Ridge Regression, Lasso Regression, Random Forest, Gradient Boosting, Support Vector Regression (SVR), XGBoost, LightGBM, and Elastic Net. The assessment of these models was conducted based on two key criteria: the Mean Squared Error (MSE) for quantitative accuracy and the patterns observed in residual plots for qualitative analysis.
 
