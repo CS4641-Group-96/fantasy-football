@@ -73,17 +73,23 @@ We initialized and trained various regression models on the training set. The ma
 
 As a recap, we used 2019, 2020, 2021, 2022's fantasy data to train a machine learning model, and after constructing the models, we used 2023's fantasy data to test the accuracy of the model. Here is the data predicted by various different machine learning models. For clarity purposes, we placed the predicted data next to 2023's actual data. 
 
-![csv ss](/fantasy-football/assets/css/7.png)
+![csv ss](/fantasy-football/assets/css/linear.png)
 
-![csv ss](/fantasy-football/assets/css/7.5.png)
+![csv ss](/fantasy-football/assets/css/ridge.png)
 
-![csv ss](/fantasy-football/assets/css/7.8.png)
+![csv ss](/fantasy-football/assets/css/lasso.png)
 
-![csv ss](/fantasy-football/assets/css/7.9.png)
+![csv ss](/fantasy-football/assets/css/random_forest.png)
 
-![csv ss](/fantasy-football/assets/css/7.66.png)
+![csv ss](/fantasy-football/assets/css/gradient_boosting.png)
 
-![csv ss](/fantasy-football/assets/css/7.22.png)
+![csv ss](/fantasy-football/assets/css/svr.png)
+
+![csv ss](/fantasy-football/assets/css/xgboost.png)
+
+![csv ss](/fantasy-football/assets/css/lightgbm.png)
+
+![csv ss](/fantasy-football/assets/css/elastic_net.png)
 
 
 # Analysis and Discussion
