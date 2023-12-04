@@ -66,7 +66,7 @@ We have the dataset for 2019, 2020, 2021, 2022, and 2023, so we decided th use 2
 
 We initialized and trained various regression models on the training set. The machine learning models used in this porject include linear regression, ridge regression, lasso regression, random forest, gradient boosting, SVR, XGBoost, LightGBM, and Elastic Net: 
 
-![csv ss](/fantasy-football/assets/css/6.png)
+![csv ss](/fantasy-football/assets/css/models_list.png)
 
 
 # Results
